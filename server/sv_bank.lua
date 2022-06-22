@@ -136,8 +136,8 @@ AddEventHandler('esx_bank:destroyCard', function()
 end)
 
 
-RegisterServerEvent('gBank:transfer')
-AddEventHandler('gBank:transfer', function(to, amountt)
+RegisterServerEvent('esx_bank:transfer')
+AddEventHandler('esx_bank:transfer', function(to, amountt)
 	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	local zPlayer = ESX.GetPlayerFromId(to)

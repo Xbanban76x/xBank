@@ -115,7 +115,7 @@ function OpenBankCentral()
                     if s then
                         local to = KeyboardInput("Quelle est l'ID de la personne", "", 5)
                         local amountt = KeyboardInput("Combien d'argent vous voulez lui donner", "", 30)
-                        TriggerServerEvent('gBank:transfer', to, amountt)
+                        TriggerServerEvent('esx_bank:transfer', to, amountt)
                     end
                 end)
 
@@ -243,7 +243,7 @@ function OpenBank()
                     if s then
                         local to = KeyboardInput("Quelle est l'ID de la personne", "", 5)
                         local amountt = KeyboardInput("Combien d'argent vous voulez lui donner", "", 30)
-                        TriggerServerEvent('gBank:transfer', to, amountt)
+                        TriggerServerEvent('esx_bank:transfer', to, amountt)
                     end
                 end)
 
