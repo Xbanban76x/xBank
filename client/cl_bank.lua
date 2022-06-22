@@ -3,6 +3,8 @@ TriggerEvent(Config.Param.ESX .. 'esx:getSharedObject', function(obj)
     ESX = obj
 end)
 
+
+
 argentsolde = 0
 
 function verifmoney()
